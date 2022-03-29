@@ -763,11 +763,11 @@ services
 }
 
 .services .item .icon {
-  max-width: 75px;
+  max-width: 100px;
   margin: 0 auto;
-  min-height: 80px;
-  line-height: 80px;
-  vertical-align: middle;
+  min-height: 90px;
+  line-height: 100px;
+  vertical-align: top;
 }
 
 .services .item h4 {
