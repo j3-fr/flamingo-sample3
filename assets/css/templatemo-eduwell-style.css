@@ -1052,7 +1052,13 @@ section.testimonials:after {
 
 .testimonials .item p {
   font-size: 16px;
+  display: inline;
+  position: relative;
   font-style: italic;
+}
+.testimonials .item strong {
+  font-weight: bold;
+  color: var(--brandColor);
 }
 
 .testimonials .item h4 {
@@ -1070,8 +1076,7 @@ section.testimonials:after {
 
 .testimonials .item img {
   max-width: 100px;
-  z-index: 2;
-  position: absolute;
+  display: inline;
   top: 30px;
   right: 30px;
 }
